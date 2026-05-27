@@ -89,4 +89,4 @@ with gr.Blocks(title="Fake News Detection - RoBERTa") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
