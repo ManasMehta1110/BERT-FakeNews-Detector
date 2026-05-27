@@ -1,3 +1,16 @@
+---
+title: BERT Fake News Detector
+colorFrom: green
+colorTo: indigo
+sdk: gradio
+sdk_version: "4.44.1"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+license: mit
+short_description: Fine-tuned RoBERTa on the LIAR dataset
+---
+
 # BERT-Fake-News-Detector (RoBERTa on LIAR)
 
 Fine-tune `roberta-base` on the LIAR dataset for binary fake news classification and deploy a lightweight Gradio demo.
