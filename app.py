@@ -3,6 +3,8 @@ from __future__ import annotations
 import os
 from typing import Dict, Tuple
 
+os.environ.setdefault("GRADIO_SSR_MODE", "False")
+
 import gradio as gr
 import torch
 from transformers import RobertaForSequenceClassification, RobertaTokenizerFast
@@ -89,4 +91,4 @@ with gr.Blocks(title="Fake News Detection - RoBERTa") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch()
